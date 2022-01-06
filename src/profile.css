@@ -18,6 +18,8 @@
   font-family: "Roboto Mono", monospace;
   padding: 15vh 10% 0;
   line-height: 40px;
+  animation-name:fadeInRight ;
+  animation-duration: 2s;
 }
 .logocontainer{
   display: flex;
@@ -28,27 +30,51 @@
   justify-content: flex-start;
 }
 .logo{
-  width: 5%;
-  height: 5%;
+  width: 7%;
+  height: 7%;
   object-fit: contain;
 }
 
 .Projects {
   width: 80%;
-  height: 85vh;
+  height: 88vh;
   align-items: center;
   justify-content: center;
   font-family: "Roboto Mono", monospace;
-  padding: 15vh 10% 0;
+  padding: 12vh 10% 0;
   display: flex;
   flex-direction: column;
   overflow: auto;
+  animation-name:fadeInUp ;
+  animation-duration: 2s;
 }
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
+/* @keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+} */
 
 .css-typing p {
   border-right: 0.15em solid orange;

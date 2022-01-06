@@ -2,8 +2,8 @@ import * as React from "react";
 
 export function About() {
   const src= [
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+    "https://adus.tech/wp-content/uploads/2021/05/html5-logo.png",
+    "https://coryrylan.com/assets/images/posts/types/css.svg",
     "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
     "https://img.icons8.com/color/452/nodejs.png",
@@ -17,7 +17,6 @@ export function About() {
   ]
   return (
     <div id="About" className="About">
-      <br />
       <h1 id="link" style={{ fontSize: "2.3em" }}>
         Basic Information
       </h1>
