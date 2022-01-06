@@ -5,7 +5,7 @@ import { Navbar } from "./Navbar";
 import { Profile } from "./Profile";
 import { About } from "./About";
 import { Projects } from "./Projects";
-
+import { Contact } from "./Contact";
 export default function App() {
   return (
     <div className="App">
@@ -13,9 +13,14 @@ export default function App() {
       <Profile />
       <About />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
+      <Footer/>
+
     </div>
   );
 }
-
-
+const Footer = () => (
+  <div className="footer">
+    <p>Made with ❤ By Raj..!</p>
+  </div>
+);

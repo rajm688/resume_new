@@ -19,6 +19,17 @@ html {
   font-family: 'Fira Mono', monospace;
   letter-spacing: -5px;
 }
+
+.footer{
+  background-color: rgb(235, 195, 64);
+  font-family: 'Fira Mono', monospace;
+
+  padding: 10px 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
 #title{
   animation: glitch 1s linear infinite;
 }
