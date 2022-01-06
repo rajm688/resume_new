@@ -1,8 +1,8 @@
 import * as React from "react";
-import './profile.css';
+import "./profile.css";
 export function Profile() {
   return (
-    <div id="Profile" className="profile">
+    <div id="Profile" className="profile wrapper">
       <div className="content">
         <img
           id="profilepic"
@@ -10,7 +10,7 @@ export function Profile() {
           alt="Rajkumar"
         />
         <div class="css-typing">
-          <p>Raj here, Enthusiastic web developer.</p> 
+          <p>Raj here, Enthusiastic web developer.</p>
           <p>I adore creating beautiful and functional webpages </p>
           <p>that intuitively solve problems.</p>
         </div>

@@ -7,7 +7,7 @@ export function About() {
     <div id="About" className="About">
       <br />
       <h1 id="link" style={{ fontSize: ".7em" }}>
-        Basic  Information
+        Basic Information
       </h1>
       <p id="link" style={{ fontSize: ".4em" }}>
         Full stack Developer Based on Tamil Nadu, India.
