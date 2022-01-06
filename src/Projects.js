@@ -3,7 +3,7 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
-
+import Typography from "@mui/material/Typography";
 export function Projects() {
   const ProjectName = [
     {
@@ -48,10 +48,10 @@ export function Projects() {
   ];
   return (
     <div id="Projects" className="Projects">
-      <h1 id="link" style={{ fontSize: "2em" }}>
+      <h1 id="link" style={{ fontSize: "2.5vw" }}>
         My Initiatives
       </h1>
-      <h1 id="link" style={{ fontSize: "1.5em" }}>
+      <h1 id="link" style={{ fontSize: "1.5vw" }}>
         Take a peek at some of my work listed below.
       </h1>{" "}
       <div className="projects">
@@ -70,18 +70,22 @@ export function Projects() {
 function ProjectDetails({ name, Details, Tools, link }) {
   return (
     <div className="trans">
-      <Card
-        sx={{
-          boxShadow: "5px 5px 5px gray",
-          fontSize: "1em",
-          width: "240px",
-          height: "250px",
-        }}
-      >
+      <Card sx={{ width: 200, height: 240, boxShadow: "5px 5px 5px gray" }}>
         <CardContent>
-          <p id="link">{name}</p>
-          <p id="link">{Tools}</p>
-          <p id="link">{Details}</p>
+          <Typography
+            sx={{ fontSize: 14, color: "black" }}
+            color="text.secondary"
+            gutterBottom
+          >
+            {Tools}
+          </Typography>
+          <Typography variant="h5" component="div">
+            {name}
+          </Typography>
+          <Typography variant="body2">
+            S{Details}
+            <br />
+          </Typography>
         </CardContent>
         <CardActions>
           <Button href={link} target="_blank" size="small">

@@ -6,21 +6,22 @@ import { Profile } from "./Profile";
 import { About } from "./About";
 import { Projects } from "./Projects";
 import { Contact } from "./Contact";
+import { Skills } from "./Skills";
 export default function App() {
   return (
     <div className="App">
       <Navbar />
       <Profile />
       <About />
+      <Skills />
       <Projects />
       <Contact />
-      <Footer/>
-
+      <Footer />
     </div>
   );
 }
 const Footer = () => (
   <div className="footer">
-    <p>Made with ❤ By Raj..!</p>
+    <p>Designed and developed by Raj.. All Rights Received</p>
   </div>
 );

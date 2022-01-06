@@ -14,6 +14,9 @@ export function Navbar() {
         <Button href="#About" color="inherit">
           About
         </Button>
+        <Button href="#Skills" color="inherit">
+          Skills
+        </Button>
         <Button href="#Projects" color="inherit">
           Projects
         </Button>

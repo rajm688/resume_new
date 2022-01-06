@@ -12,48 +12,64 @@
 }
 .About {
   width: 80%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+  padding: 20vh 10% 0;
+  line-height: 40px;
+  animation-name: fadeInRight;
+  animation-duration: 2s;
+}
+.skills {
+  width: 80%;
   height: 85vh;
   align-items: center;
   justify-content: center;
   font-family: "Roboto Mono", monospace;
   padding: 15vh 10% 0;
   line-height: 40px;
-  animation-name:fadeInRight ;
-  animation-duration: 2s;
 }
-.logocontainer{
+.logocontainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 4vw;
   align-items: center;
   justify-content: flex-start;
 }
-.logo{
-  width: 7%;
-  height: 7%;
+.logo {
+  width: 6vw;
+  height: 100px;
   object-fit: contain;
 }
-
+.logodiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: "2%";
+}
 .Projects {
   width: 80%;
-  height: 88vh;
+  height: 85vh;
   align-items: center;
   justify-content: center;
   font-family: "Roboto Mono", monospace;
-  padding: 12vh 10% 0;
+  padding: 15vh 10% 0;
   display: flex;
   flex-direction: column;
-  overflow: auto;
-  animation-name:fadeInUp ;
+
+  animation-name: fadeInUp;
   animation-duration: 2s;
 }
 .projects {
   display: flex;
   flex-wrap: wrap;
+  overflow: auto;
+  padding: 5px;
   gap: 20px;
 }
-.Contact{
+.Contact {
   width: 80%;
   height: 75vh;
   align-items: center;
@@ -90,7 +106,7 @@
 .css-typing p {
   border-right: 0.15em solid orange;
   font-family: "Roboto Mono", monospace;
-  font-size: 200%;
+  font-size: 2.2vw;
   white-space: nowrap;
   overflow: hidden;
   margin: 20px;
