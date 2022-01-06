@@ -115,8 +115,8 @@ html {
   justify-content: center;
   margin: 0;
   background-color: #000000;
-  background-image:  radial-gradient(#6d6c6c 0.5px, transparent 0.5px), radial-gradient(#ffffff 0.5px, #000000 0.5px);
-  background-size: 20px 20px;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 4px ), repeating-linear-gradient( #1e1e1e55, #1e1e1e );
   color: #fff;
   font-size: 50px;
   font-family: "Roboto Mono", monospace;
@@ -125,15 +125,16 @@ html {
 }
 
 .Projects {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   align-items: center;
   justify-content: center;
   font-family: "Roboto Mono", monospace;
   margin: 0;
   background-color: #000000;
-  background-image:  radial-gradient(#6d6c6c 0.5px, transparent 0.5px), radial-gradient(#ffffff 0.5px, #000000 0.5px);
-  background-size: 20px 20px;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 4px ), repeating-linear-gradient( #1e1e1e55, #1e1e1e );
+
   color: #fff;
   padding: 90px 5% 0 5%;
   /* background-color: rgba(138, 240, 253, 0.801); */
