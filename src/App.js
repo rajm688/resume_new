@@ -22,6 +22,6 @@ export default function App() {
 }
 const Footer = () => (
   <div className="footer">
-    <p>Designed and developed by Raj.. All Rights Received</p>
+    <p>Designed and developed by Raj..</p>
   </div>
 );
