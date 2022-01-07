@@ -70,7 +70,7 @@ export function Projects() {
 function ProjectDetails({ name, Details, Tools, link }) {
   return (
     <div className="trans">
-      <Card sx={{ width: 200, height: 240, boxShadow: "5px 5px 5px gray" }}>
+      <Card sx={{ width: 200, height: 240, boxShadow: "5px 5px 5px gray",background: "linear-gradient(90deg, #a3a3a39c, #d0d0d0cd, #fdfdfd)" }}>
         <CardContent>
           <Typography
             sx={{ fontSize: 14, color: "black" }}
