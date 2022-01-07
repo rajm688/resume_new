@@ -5,13 +5,13 @@ html {
 body::-webkit-scrollbar {
   width: 0;
 }
-body{
+body {
   background-image: url("https://static.tildacdn.com/tild3238-3466-4935-b738-383633313465/5570863.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
- 
+
 .navbar {
   position: sticky;
   top: 0px;

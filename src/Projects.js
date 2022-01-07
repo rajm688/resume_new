@@ -4,6 +4,7 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+// import CardMedia from '@mui/material/CardMedia';
 export function Projects() {
   const ProjectName = [
     {
@@ -69,30 +70,32 @@ export function Projects() {
 }
 function ProjectDetails({ name, Details, Tools, link }) {
   return (
-    <div className="trans">
-      <Card sx={{ width: 200, height: 240, boxShadow: "5px 5px 5px gray",background: "linear-gradient(90deg, #a3a3a39c, #d0d0d0cd, #fdfdfd)" }}>
-        <CardContent>
-          <Typography
-            sx={{ fontSize: 14, color: "black" }}
-            color="text.secondary"
-            gutterBottom
-          >
-            {Tools}
-          </Typography>
-          <Typography variant="h5" component="div">
-            {name}
-          </Typography>
-          <Typography variant="body2">
-            S{Details}
-            <br />
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button href={link} target="_blank" size="small">
-            <span id="link">explore</span>
-          </Button>
-        </CardActions>
-      </Card>
-    </div>
+    <Card sx={{ width: 445, height: 150, boxShadow: "5px 5px 5px gray" }}>
+      {/* <CardMedia
+      component="img"
+      height="140"
+      image="/static/images/cards/contemplative-reptile.jpg"
+      alt="green iguana"
+    /> */}
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {name} - {Tools}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {Details}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button href={link} target="_blank" size="small">
+          Front End
+        </Button>
+        <Button href={link} target="_blank" size="small">
+          Back End
+        </Button>
+        <Button href={link} target="_blank" size="small">
+          Project URL
+        </Button>
+      </CardActions>
+    </Card>
   );
 }
