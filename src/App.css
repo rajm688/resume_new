@@ -2,7 +2,10 @@
 html {
   scroll-behavior: smooth;
 }
-
+body::-webkit-scrollbar {
+  width: 0;
+}
+ 
 .navbar {
   position: sticky;
   top: 0px;
