@@ -1,9 +1,4 @@
 import * as React from "react";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 // import CardMedia from '@mui/material/CardMedia';
 export function Projects() {
   const ProjectName = [
@@ -60,7 +55,7 @@ function ProjectDetails({ name, Details, Tools, link }) {
     <div class="card">
       <div class="content">
         <div class="imgBx">
-          <img src="https://image.flaticon.com/icons/png/256/4213/4213732.png"/>
+          <img src="https://image.flaticon.com/icons/png/256/4213/4213732.png" alt="method"/>
         </div>
         <div class="contentBx">
           <h3>{name}<br/><span>{Tools}</span></h3>
