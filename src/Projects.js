@@ -63,13 +63,13 @@ function ProjectDetails({ name, Details, Tools, link }) {
       </div>
       <ul class="sci">
         <li>
-          <a href="">ForntEnd</a>
+          <a href={link}>ForntEnd</a>
         </li>
         <li>
-          <a href="">BackEnd</a>
+          <a href={link}>BackEnd</a>
         </li>
         <li>
-          <a href="">Deploy</a>
+          <a href={link}>Deploy</a>
         </li>
       </ul>
     </div>
