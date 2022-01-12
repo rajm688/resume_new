@@ -32,7 +32,7 @@ export function Skills() {
     },
     {
       link: "https://gocode.colorado.gov/wp-content/uploads/2020/11/MongoDB-logo.gif",
-      name: "mongo DB",
+      name: "mongoDB",
     },
     {
       link: "https://5.imimg.com/data5/SELLER/Default/2021/8/NP/YN/DN/3775979/aws-logo-500x500.png",
@@ -44,7 +44,7 @@ export function Skills() {
     },
     {
       link: "https://www.logolynx.com/images/logolynx/7c/7cd9586a595db92320ebf7beab22a7af.png",
-      name: "J Query",
+      name: "JQuery",
     },
     {
       link: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",

@@ -5,7 +5,7 @@ export function Projects() {
     {
       name: "React MOKE API CRUD ",
       Details: "Performing CRUD operations",
-      Tools: "Rract",
+      Tools: "React",
       link: "https://pokemon-cerd.netlify.app/",
       backend:"https://github.com/rajm688/Task-Day-29"
     },
