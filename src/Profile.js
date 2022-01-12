@@ -10,7 +10,7 @@ export function Profile() {
           alt="Rajkumar"
         />
         <div class="css-typing">
-          <p>Raj here, Enthusiastic web developer.</p>
+          <p>Raj here, MERN Stack web developer.</p>
           <p>I adore creating beautiful and functional webpages </p>
           <p>that intuitively solve problems.</p>
         </div>
