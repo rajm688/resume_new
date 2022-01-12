@@ -27,25 +27,26 @@ export function Projects() {
         Take a peek at some of my work listed below.
       </h1>{" "}
       <div className="container">
-        {ProjectName.map(({ name, Details, Tools, link }) => (
+        {ProjectName.map(({ name, Details, Tools, link, backend }) => (
           <ProjectDetails
             name={name}
             Details={Details}
             Tools={Tools}
             link={link}
+            backend = {backend}
           />
         ))}
       </div>
     </div>
   );
 }
-function ProjectDetails({ name, Details, Tools, link }) {
+function ProjectDetails({ name, Details, Tools, link, backend }) {
   return (
     <div className="projectcontainer">
     <div class="card">
       <div class="content">
         <div class="imgBx">
-          <img src="https://image.flaticon.com/icons/png/256/4213/4213732.png" alt="method"/>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="method"/>
         </div>
         <div class="contentBx">
           <h3>{name}<br/><span>{Tools}</span></h3>
@@ -53,13 +54,13 @@ function ProjectDetails({ name, Details, Tools, link }) {
       </div>
       <ul class="sci">
         <li>
-          <a href={link}>ForntEnd</a>
+          <a href={backend}>Source Code</a>
         </li>
         {/* <li> */}
           {/* <a href={link}>BackEnd</a> */}
         {/* </li> */}
         <li>
-          <a href={link}>Deploy</a>
+          <a href={link}>Deploy Link</a>
         </li>
       </ul>
     </div>
