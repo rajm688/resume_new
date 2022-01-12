@@ -11,6 +11,10 @@ export function Skills() {
       name: "CSS",
     },
     {
+      link: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png",
+      name: "SASS",
+    },
+    {
       link: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
       name: "JavaScript",
     },

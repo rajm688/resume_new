@@ -3,28 +3,18 @@ import * as React from "react";
 export function Projects() {
   const ProjectName = [
     {
-      name: "Movie-List CRUD ",
-      Details: "Fetching and Performing CRUD operations in Mock API",
+      name: "React MOKE API CRUD ",
+      Details: "Performing CRUD operations",
       Tools: "Rract",
-      link: "https://tic-tak-toe-react.netlify.app/",
+      link: "https://pokemon-cerd.netlify.app/",
+      backend:"https://github.com/rajm688/Task-Day-29"
     },
     {
-      name: "Tic-Tak-Toe",
-      Details: "React-based interactive tic-tac-toe game",
+      name: "React CRUD and Routing",
+      Details: "React-based CRUD operation on MOCK API",
       Tools: "React",
       link: "https://tic-tak-toe-react.netlify.app/",
-    },
-    {
-      name: "Movie-List CRUD ",
-      Details: "Fetching and Performing CRUD operations in Mock API",
-      Tools: "Rract",
-      link: "https://tic-tak-toe-react.netlify.app/",
-    },
-    {
-      name: "Tic-Tak-Toe",
-      Details: "React-based interactive tic-tac-toe game",
-      Tools: "React",
-      link: "https://tic-tak-toe-react.netlify.app/",
+      backend:"https://github.com/rajm688/react"
     },
     
   ];
@@ -65,9 +55,9 @@ function ProjectDetails({ name, Details, Tools, link }) {
         <li>
           <a href={link}>ForntEnd</a>
         </li>
-        <li>
-          <a href={link}>BackEnd</a>
-        </li>
+        {/* <li> */}
+          {/* <a href={link}>BackEnd</a> */}
+        {/* </li> */}
         <li>
           <a href={link}>Deploy</a>
         </li>
